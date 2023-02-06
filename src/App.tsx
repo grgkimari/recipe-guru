@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+const APP_ID = "6f1868ae"
+const API_KEY = "39a973879de344ea8621d4d61de5d43a"
+const API_URL ="https://api.edamam.com/api/recipes/v2"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
